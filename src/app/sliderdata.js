@@ -1,0 +1,22 @@
+export const SliderData = [
+    {
+      image:
+      "off.png"
+    },
+    {
+      image:
+      "hbl.png"
+    },
+    {
+      image:
+      "faimly.png"
+    },
+    {
+      image:
+      "mobile.png"
+    },
+    {
+      image:
+      "deal.png"
+    }
+  ];

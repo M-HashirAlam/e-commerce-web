@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Russo+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+  
+   @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css");
+
+
+
+
+.main{
+  background-color: rgb(0, 0, 0);
+}
+.header-container {
+  display: flex; /* Use flexbox to place headings side by side */
+  align-items: center;
+   
+}
+
+/* Style for the headings */
+.header1 {
+  flex: 1; /* Allow headings to grow and take equal space */
+  text-align: center; /* Center text horizontally */
+  font-family: 'Dancing Script', cursive;
+  color: white
+}
+.header2 {
+  flex: 1; /* Allow headings to grow and take equal space */
+  text-align: center; /* Center text horizontally */
+  font-family: 'Nabla', cursive;
+  color: #ff9900;
+
+  font-size: 40px;
+  
+ 
+
+}
+
+/* Style for the gradient line */
+.gradient-line {
+  flex: 0; /* Don't grow, takes no space */
+  width: 2px; /* Adjust the width of the line as needed */
+  height: 50px; /* Adjust the height of the line as needed */
+  background: linear-gradient(to bottom, #ff9900, #ff66cc); /* Gradient background */
+}
+.button {
+  background-color: #525252c2;
+  color: rgb(255, 0, 0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  size: 10px;
+
+  /* Customize the button on hover */
+  &:hover {
+    background-color:rgb(255, 0, 0);
+    color: #fff;
+  }
+}
